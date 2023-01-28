@@ -30,6 +30,9 @@ export const pieceSchema = new Schema<Piece>({
     price: {
         type: Number,
     },
+    likes: {
+        type: Number,
+    },
 });
 
 pieceSchema.set('toJSON', {

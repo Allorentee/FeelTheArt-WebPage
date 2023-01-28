@@ -17,9 +17,7 @@ export class UserRepository implements UserRepo<User> {
         if (typeof data.passwd !== 'string')
             throw new Error('Contraseña no valida');
         data.passwd = await this.password.encrypt(data.passwd);
-        const result = await (
-            await this.#Model.create(data)
-        ).populate('artPieces');
+        const result = (await this.#Model.create(data)).populate('artPieces');
         return result;
     }
     async find(data: Partial<User>): Promise<User> {
