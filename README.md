@@ -54,3 +54,4 @@ npm run start:watch
 - [ ] - Style the webpage
 - [ ] - Create Art piece form
 - [ ] - Create users wish list
+- [ ] - Price filter
