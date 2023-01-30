@@ -1,0 +1,17 @@
+## **INSTALL THE DEPENDENCES**
+
+```
+npm i
+```
+
+## **KEEP COMPILATION**
+
+```
+npm run build:watch
+```
+
+## **KEEP SERVER STARTED**
+
+```
+npm run start:watch
+```
