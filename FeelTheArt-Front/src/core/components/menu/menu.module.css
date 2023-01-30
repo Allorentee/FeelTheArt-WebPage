@@ -4,8 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-  min-width: 35px;
-  max-width: 65px;
+  width: 65px;
   height: 426px;
   border-radius: 50px;
   background-color: #3836369d;

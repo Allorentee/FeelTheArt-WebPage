@@ -1,0 +1,14 @@
+.home__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.home__title {
+  color: #efb810;
+  font-size: 5rem;
+}
+.home__title2 {
+  color: wheat;
+  letter-spacing: 3px;
+}
