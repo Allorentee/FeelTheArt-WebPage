@@ -1,0 +1,38 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 300px;
+}
+.ArtistGallery__title {
+  color: #efb810;
+  font-size: 4rem;
+}
+.ArtistGallery__List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  list-style-type: none;
+}
+.ArtistGallery__photo {
+  min-height: 364px;
+  object-fit: cover;
+}
+.ArtistGallery__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ArtistGallery__ArtistCard {
+  border: 10px solid #d9d9d9;
+  border-radius: 10px;
+}

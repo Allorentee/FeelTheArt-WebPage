@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { ArtistGallery } from "./index";
+import { ArtistGallery } from "./ArtistGallery";
 import "@testing-library/jest-dom";
 
 describe("Given Component", () => {
