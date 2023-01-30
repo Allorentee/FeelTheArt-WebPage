@@ -3,7 +3,7 @@ import { User } from "./user";
 export type Piece = {
   name: string;
   img: string;
-  artist: User;
+  artist?: User | undefined;
   onSale: boolean;
   price: number;
   likes?: number;

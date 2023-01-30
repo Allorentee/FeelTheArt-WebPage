@@ -4,12 +4,10 @@ import { User } from "../types/user";
 
 export const useUser = () => {
   const initialState: Array<User> = [];
-  const [artist, setstate] = useState(initialState);
+  const [artist, setArtist] = useState(initialState);
 
   const handleArtistLoad = async () => {
-    await getAllArtist().then((res) => {
-      setstate(res);
-    });
+    await getAllArtist().then(setArtist);
   };
 
   useEffect(() => {

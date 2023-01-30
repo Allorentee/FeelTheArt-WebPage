@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 35px;
+  height: 426px;
+  border-radius: 50px;
+  background-color: #3836369d;
+}
+.menu__item {
+  list-style-type: none;
+}
+.menu__link {
+}
