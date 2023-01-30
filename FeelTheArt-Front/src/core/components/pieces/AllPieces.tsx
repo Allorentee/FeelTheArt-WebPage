@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getAllPieces } from "../../services/pieces/getAllPieces";
 import { Piece } from "../../types/piece";
+import style from "./allpieces.module.css";
 
 export function AllPieces() {
   const initialState: Piece[] = [];
@@ -12,10 +13,10 @@ export function AllPieces() {
 
   return (
     <>
-      <ul>
+      <ul className={style.pieceList}>
         {pieces.length > 0 &&
           pieces.map((piece) => (
-            <li key={piece.name}>
+            <li key={piece.name} className={style.pieceList__Item}>
               <img
                 src={piece.img}
                 alt={piece.name}
