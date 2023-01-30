@@ -1,0 +1,20 @@
+:menuhome {
+  display: block;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  list-style-type: none;
+  position: absolute;
+  top: 30px;
+  right: 700px;
+}
+.menu__link {
+  text-decoration: none;
+  color: white;
+}
+.menu__link:hover {
+  color: rgb(126, 126, 7);
+}

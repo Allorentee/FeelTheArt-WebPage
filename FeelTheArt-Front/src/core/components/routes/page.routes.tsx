@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import { ArtistGallery } from "../ArtistGallery/ArtistGallery";
-import { Home } from "../Home/home";
-import { Pieces } from "../TrendingPieces/Pieces";
+import { ArtistGallery } from "../../../pages/ArtistGallery/ArtistGallery";
+import { Home } from "../../../pages/Home/home";
+import { Pieces } from "../../../pages/TrendingPieces/Pieces";
 
 export const AppRoutes = () => {
   return (

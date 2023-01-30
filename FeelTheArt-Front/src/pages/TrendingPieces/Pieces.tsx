@@ -6,7 +6,7 @@ export function Pieces() {
   return (
     <>
       <div className={style.wrapper}>
-        <RenderMenu isHome={false}></RenderMenu>
+        <RenderMenu></RenderMenu>
         <AllPieces></AllPieces>
       </div>
     </>

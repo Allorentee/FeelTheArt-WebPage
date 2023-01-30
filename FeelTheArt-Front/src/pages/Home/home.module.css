@@ -12,3 +12,9 @@
   color: wheat;
   letter-spacing: 3px;
 }
+.wrapperHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

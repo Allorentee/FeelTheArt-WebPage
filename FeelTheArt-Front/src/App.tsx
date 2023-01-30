@@ -1,5 +1,5 @@
 import "tailwindcss/tailwind.css";
-import { AppRoutes } from "./pages/routes/page.routes";
+import { AppRoutes } from "./core/components/routes/page.routes";
 
 function App() {
   return <AppRoutes />;
