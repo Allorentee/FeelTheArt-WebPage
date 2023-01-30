@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { getAllPieces } from "../../services/pieces/getAllPieces";
-import { Piece } from "../../types/piece";
+import { Pieces } from "../../types/piece";
 import style from "./allpieces.module.css";
 
 export function AllPieces() {
-  const initialState: Piece[] = [];
+  const initialState: Pieces[] = [];
   const [pieces, setPieces] = useState(initialState);
 
   useEffect(() => {

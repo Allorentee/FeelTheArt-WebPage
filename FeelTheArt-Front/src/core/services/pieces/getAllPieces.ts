@@ -1,4 +1,5 @@
-import { Piece } from "./../../../../../FeelTheArt-Back/src/entities/art.pieces";
-export function getAllPieces(): Promise<Piece[]> {
+import { Pieces } from "../../types/piece";
+
+export function getAllPieces(): Promise<Pieces[]> {
   return fetch("http://localhost:7700/pieces").then((res) => res.json());
 }
