@@ -3,17 +3,21 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 300px;
+  /* flex-wrap: wrap; */
+  gap: 100px;
+  position: relative;
 }
 .ArtistGallery__title {
   color: #efb810;
   font-size: 4rem;
+  position: absolute;
+  top: 0;
 }
 .ArtistGallery__List {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
   list-style-type: none;
 }
 .ArtistGallery__photo {
@@ -22,17 +26,25 @@
 }
 .ArtistGallery__wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
+  flex-wrap: wrap;
 }
+
 .divider {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 90%;
+  min-height: 90vh;
 }
 .ArtistGallery__ArtistCard {
   border: 10px solid #d9d9d9;
   border-radius: 10px;
+}
+.menu__Wrapper {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
